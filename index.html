@@ -2,11 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>russian travel</title>
+    <meta name="description" content="Адаптивная верстка на Яндекс.Практикуме">
+    <meta name="keywords" content="html, css, flexbox">
+    <meta name="author" content="Валерий Мамакин">
+    <title>Путешествия по России</title>
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
-    Привет мир!!!
+<body class="page">
+  <header class="header">
+    <img src="./images/header-logo.svg" alt="Логотип" class="header__logo">
+    <div class="header__leng">
+      <a href="#" class="header__leng-link header__leng-link_aktiv">Ru</a>
+      <a href="#" class="header__leng-link">En</a>
+    </div>
+  </header>
+  <main class="content">
+    <section class="lead">
+      <h1 class="lead__title">Путешествия по России</h1>
+      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+      <img src="./images/lead-polka.svg" alt="Спящая девушка на нижней
+      полке плацкартного вагона" class="lead__image">
+      <p class="lead__caption">ваша полка — верхняя</p>
+    </section>
+    <section class="intro">
+      <h2 class="intro__title">Чего мы там не видели?</h2>
+      <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь
+        поехать, но только 36% планируют провести отпуск в родной стране.
+          Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
+          вселенная с ласковым морем юга, густыми лесами Саян и суровыми
+          льдами плато Путорана. А ещё увидеть все эти красоты можно без
+          миллионов на счету, загранпаспорта и многочасовых перелетов. Как,
+          например, Вера Башмакова — смелая молодая мама, которая взяла в
+          охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
+          километров по родной стране. Мы выбрали и описали некоторые
+          интересные места, достойные вашего отпуска.</p>
+      <ul class="intro__list">
+        <li class="intro__item intro__item_text">Часовых поясов <span class="intro__item intro__item_number">11</span></li>
+        <li class="intro__item intro__item_text">Объектов природного наследия ЮНЕСКО <span class="intro__item intro__item_number">12</span></li>
+        <li class="intro__item intro__item_text">Объектов культурного наследия ЮНЕСКО <span class="intro__item intro__item_number">16</span></li>
+        <li class="intro__item intro__item_text">Природных заповедников <span class="intro__item intro__item_number">105</span></li>
+        <li class="intro__item intro__item_text">Аэропортов <span class="intro__item intro__item_number">241</span></li>
+      </ul>
+    </section>
+    <section class="photo-grid">
+      <img src="./images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid__item">
+      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Вид на заснеженные горы в облаках" class="photo-grid__item">
+      <img src="./images/photo-grid-tuman.jpg" alt="Собака на сене в утреннем тумане" class="photo-grid__item">
+      <img src="./images/photo-grid-sochi.jpg" alt="Лесистый склон горы в тумане" class="photo-grid__item">
+      <img src="./images/photo-grid-arisa.jpg" alt="Колесо авто на льду замерзшего водоема" class="photo-grid__item">
+      <img src="./images/photo-grid-baikal-1.jpg" alt="Песчаный берег Байкала" class="photo-grid__item">
+      <img src="./images/photo-grid-elbrus.jpg" alt="Снежные холмы величественного Эльбруса" class="photo-grid__item">
+      <img src="./images/photo-grid-kondratiev.jpg" alt="Автомобильный знак пешеходного перехода на фоне морских волнорезов" class="photo-grid__item">
+      <img src="./images/photo-grid-kamchatka-1.jpg" alt="Сопки Камчатки в тумане" class="photo-grid__item">
+      <img src="./images/photo-grid-kamchatka-2.jpg" alt="Долина на фоне горы Камчатки" class="photo-grid__item">
+      <img src="./images/photo-grid-baikal-2.jpg" alt="Зимний скалистый берег Байкала" class="photo-grid__item">
+      <img src="./images/photo-grid-ergaki.jpg" alt="Хребет Ергаки над облоками" class="photo-grid__item">
+    </section>
+  </main>
 </body>
 </html>

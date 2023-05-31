@@ -1,0 +1,14 @@
+.intro__text {
+  margin: 0;
+  padding-bottom: 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: start;
+}
+
+@media (min-width: 768px) {
+  .intro__text {
+    padding-bottom: 33px;
+  }
+}

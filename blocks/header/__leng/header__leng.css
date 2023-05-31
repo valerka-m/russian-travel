@@ -1,0 +1,7 @@
+.header__leng {
+  display: flex;
+  column-gap: 18px;
+  position: relative;
+  top: 4px;
+}
+
