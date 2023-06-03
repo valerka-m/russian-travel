@@ -1,0 +1,18 @@
+.place__paragraph-column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  row-gap: 25px;
+}
+
+@media (min-width: 768px) {
+  .place__paragraph-column {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__paragraph-column {
+    row-gap: 26px;
+  }
+}

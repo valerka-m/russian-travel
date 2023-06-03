@@ -1,0 +1,11 @@
+.place__website {
+  margin: 0;
+  padding: 0  16px;
+}
+
+@media (min-width: 768px) {
+  .place__website {
+    align-self: end;
+    padding: 0;
+  }
+}
