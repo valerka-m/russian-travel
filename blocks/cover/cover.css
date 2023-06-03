@@ -1,3 +1,16 @@
 .cover {
-  
+  padding: 0 0 64px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    padding: 0 0 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    padding: 0 0 92px;
+  }
 }
