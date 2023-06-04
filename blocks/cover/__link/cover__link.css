@@ -48,11 +48,13 @@
 @media (min-width: 1024px) {
   .cover__link {
     min-height: 640px;
+    max-width: 1184px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover__link {
     min-height: 740px;
+
   }
 }

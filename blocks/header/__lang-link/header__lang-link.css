@@ -1,14 +1,19 @@
-.header__leng-link {
+.header__lang-link {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.1;
   text-decoration: none;
   color: #FFFFFF;
+  transition: opacity .4s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
-  .header__leng-link {
+  .header__lang-link {
     font-size: 24px;
     line-height: 1.2;
   }
