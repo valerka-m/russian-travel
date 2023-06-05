@@ -1,6 +1,6 @@
 .cover__title {
   max-width: 288px;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
   text-align: center;
   font-style: normal;
   font-weight: 900;
@@ -29,23 +29,5 @@
     font-size: 72px;
     line-height: 1.06;
     max-width: 560px;
-  }
-}
-
-@media (min-width: 768px) {
-  .cover__title {
-    margin-top: 115px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cover__title {
-    margin-top: 195px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .cover__title {
-    margin-top: 245px;
   }
 }

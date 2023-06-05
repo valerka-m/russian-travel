@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
 /* header */
@@ -7,7 +7,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_aktiv/header__lang-link_aktiv.css);
+@import url(../blocks/header/__lang-link/_true/header__lang-link_true.css);
 
 @import url(../blocks/content/content.css);
 
@@ -23,9 +23,8 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__item/intro__item.css);
-@import url(../blocks/intro/__item/_text/intro__item_text.css);
-@import url(../blocks/intro/__item/_number/intro__item_number.css);
+@import url(../blocks/intro/__item-text/intro__item-text.css);
+@import url(../blocks/intro/__item-number/intro__item-number.css);
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -51,9 +50,7 @@
 
 /*footer*/
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
